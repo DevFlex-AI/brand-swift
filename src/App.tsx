@@ -17,6 +17,16 @@ import Analytics from "./pages/Analytics";
 import MarketValidation from "./pages/MarketValidation";
 import CompetitorAnalysis from "./pages/CompetitorAnalysis";
 import AICoaching from "./pages/AICoaching";
+import StartupAccelerator from "./pages/StartupAccelerator";
+import InvestorMatching from "./pages/InvestorMatching";
+import TeamCollaboration from "./pages/TeamCollaboration";
+import AIContentGenerator from "./pages/AIContentGenerator";
+import FundraisingToolkit from "./pages/FundraisingToolkit";
+import GrowthHacking from "./pages/GrowthHacking";
+import AutomationWorkflows from "./pages/AutomationWorkflows";
+import CustomerFeedback from "./pages/CustomerFeedback";
+import APIMarketplace from "./pages/APIMarketplace";
+import CommunityHub from "./pages/CommunityHub";
 
 const queryClient = new QueryClient();
 
@@ -40,6 +50,16 @@ const App = () => (
           <Route path="/validation" element={<MarketValidation />} />
           <Route path="/competitors" element={<CompetitorAnalysis />} />
           <Route path="/coaching" element={<AICoaching />} />
+          <Route path="/accelerator" element={<StartupAccelerator />} />
+          <Route path="/investors" element={<InvestorMatching />} />
+          <Route path="/team" element={<TeamCollaboration />} />
+          <Route path="/content" element={<AIContentGenerator />} />
+          <Route path="/fundraising" element={<FundraisingToolkit />} />
+          <Route path="/growth" element={<GrowthHacking />} />
+          <Route path="/automation" element={<AutomationWorkflows />} />
+          <Route path="/feedback" element={<CustomerFeedback />} />
+          <Route path="/marketplace" element={<APIMarketplace />} />
+          <Route path="/community" element={<CommunityHub />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
