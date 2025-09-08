@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { TrendingUp, Zap, Target, Users, Share2, BarChart3, Lightbulb } from "lucide-react";
+import { TrendingUp, Zap, Target, Users, Share2, BarChart3, Lightbulb, DollarSign } from "lucide-react";
 
 export default function GrowthHackingSuite() {
   const [activeExperiment, setActiveExperiment] = useState("viral-loops");

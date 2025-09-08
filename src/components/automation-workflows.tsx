@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Switch } from "@/components/ui/switch";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Zap, Play, Pause, Settings, Mail, MessageSquare, Calendar, Bell } from "lucide-react";
+import { Zap, Play, Pause, Settings, Mail, MessageSquare, Calendar, Bell, Users, BarChart3, TrendingUp } from "lucide-react";
 
 export default function AutomationWorkflows() {
   const [workflows] = useState([
