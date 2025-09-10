@@ -81,7 +81,8 @@ const App = () => (
                 <Route path="/automation" element={<AutomationWorkflows />} />
                 <Route path="/feedback" element={<CustomerFeedback />} />
                 <Route path="/marketplace" element={<APIMarketplace />} />
-                <Route path="/community" element={<CommunityHub />} />
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/ideas" element={<IdeaGenerator />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>

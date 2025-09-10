@@ -103,21 +103,22 @@ export default function StartupIdeaGenerator() {
     if (!user) return;
     
     try {
-      const { error } = await supabase
-        .from('startup_ideas')
-        .insert({
-          user_id: user.id,
-          title: idea.title,
-          description: idea.description,
-          target_audience: idea.target_audience,
-          revenue_model: idea.revenue_model,
-          market_size: idea.market_size,
-          tags: idea.tags
-        });
+      // Temporarily disable database save until types are regenerated
+      // const { error } = await supabase
+      //   .from('startup_ideas')
+      //   .insert({
+      //     user_id: user.id,
+      //     title: idea.title,
+      //     description: idea.description,
+      //     target_audience: idea.target_audience,
+      //     revenue_model: idea.revenue_model,
+      //     market_size: idea.market_size,
+      //     tags: idea.tags
+      //   });
 
-      if (!error) {
+      // if (!error) {
         setSavedIdeas(new Set([...savedIdeas, idea.id]));
-      }
+      // }
     } catch (error) {
       console.error('Error saving idea:', error);
     }

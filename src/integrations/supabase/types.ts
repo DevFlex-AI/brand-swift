@@ -576,36 +576,42 @@ export type Database = {
       profiles: {
         Row: {
           avatar_url: string | null
+          company_name: string | null
           created_at: string
           credits: number
           daily_credits_limit: number | null
           daily_credits_reset_at: string | null
           display_name: string | null
           id: string
+          location: string | null
           subscription_tier: Database["public"]["Enums"]["app_role"]
           updated_at: string
           user_id: string
         }
         Insert: {
           avatar_url?: string | null
+          company_name?: string | null
           created_at?: string
           credits?: number
           daily_credits_limit?: number | null
           daily_credits_reset_at?: string | null
           display_name?: string | null
           id?: string
+          location?: string | null
           subscription_tier?: Database["public"]["Enums"]["app_role"]
           updated_at?: string
           user_id: string
         }
         Update: {
           avatar_url?: string | null
+          company_name?: string | null
           created_at?: string
           credits?: number
           daily_credits_limit?: number | null
           daily_credits_reset_at?: string | null
           display_name?: string | null
           id?: string
+          location?: string | null
           subscription_tier?: Database["public"]["Enums"]["app_role"]
           updated_at?: string
           user_id?: string
@@ -643,6 +649,45 @@ export type Database = {
           name?: string
           status?: string
           template?: string | null
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      startup_ideas: {
+        Row: {
+          created_at: string
+          description: string
+          id: string
+          market_size: string | null
+          revenue_model: string | null
+          tags: string[] | null
+          target_audience: string | null
+          title: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          description: string
+          id?: string
+          market_size?: string | null
+          revenue_model?: string | null
+          tags?: string[] | null
+          target_audience?: string | null
+          title: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          description?: string
+          id?: string
+          market_size?: string | null
+          revenue_model?: string | null
+          tags?: string[] | null
+          target_audience?: string | null
+          title?: string
           updated_at?: string
           user_id?: string
         }

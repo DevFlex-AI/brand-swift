@@ -12,8 +12,8 @@ export default function Profile() {
   const { user } = useAuth();
   const [profile, setProfile] = useState({
     display_name: '',
-    company_name: '',
-    location: '',
+    company_name: '', // Will be available after types regeneration
+    location: '', // Will be available after types regeneration
   });
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
@@ -35,8 +35,8 @@ export default function Profile() {
       if (data) {
         setProfile({
           display_name: data.display_name || '',
-          company_name: data.company_name || '',
-          location: data.location || '',
+          company_name: (data as any).company_name || '', // Temporary until types regenerate
+          location: (data as any).location || '', // Temporary until types regenerate
         });
       }
     } catch (error) {
