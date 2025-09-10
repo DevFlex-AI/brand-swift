@@ -35,6 +35,8 @@ import CommunityHub from "./pages/CommunityHub";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Pricing from "./pages/Pricing";
+import Profile from "./pages/Profile";
+import IdeaGenerator from "./pages/IdeaGenerator";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -55,6 +57,7 @@ const App = () => (
                 <Route path="/pricing" element={<Pricing />} />
                 <Route path="/privacy" element={<Privacy />} />
                 <Route path="/terms" element={<Terms />} />
+                <Route path="/profile" element={<Profile />} />
                 
                 {/* Feature Routes */}
                 <Route path="/submit" element={<IdeaSubmission />} />
