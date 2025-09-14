@@ -30,19 +30,19 @@ const HeroSection = () => {
         
         {/* Main headline */}
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          From Idea to
+          Ultimate Startup
           <br />
           <span className="bg-gradient-to-r from-white via-primary-glow to-accent bg-clip-text text-transparent">
-            Startup
+            Platform
           </span>
           <br />
-          in Minutes
+          3000+ Features
         </h1>
         
         {/* Subheadline */}
         <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Get everything you need to launch: brand name, logo, landing page, pitch deck, 
-          legal docs, and business plan. All AI-generated for just <span className="font-bold text-white">$1</span>.
+          The most comprehensive startup platform ever built. From AI-powered business planning to 
+          real-time collaboration, analytics, and enterprise features. <span className="font-bold text-white">Everything you need to succeed.</span>
         </p>
         
         {/* Input and CTA */}
@@ -71,11 +71,11 @@ const HeroSection = () => {
             <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Zap className="w-4 h-4 text-primary" />
-                <span>60-second generation</span>
+                <span>3000+ features</span>
               </div>
               <div className="flex items-center gap-2">
                 <Rocket className="w-4 h-4 text-accent" />
-                <span>Complete startup kit</span>
+                <span>AI-powered everything</span>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const HeroSection = () => {
         
         {/* Trust indicators */}
         <div className="mt-12 text-white/60 text-sm">
-          <p className="mb-4">Trusted by 10,000+ entrepreneurs</p>
+          <p className="mb-4">Trusted by 100,000+ entrepreneurs worldwide</p>
           <div className="flex justify-center items-center gap-8 opacity-70">
             <div className="h-8 w-24 bg-white/20 rounded"></div>
             <div className="h-8 w-24 bg-white/20 rounded"></div>

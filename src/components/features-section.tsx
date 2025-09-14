@@ -13,43 +13,43 @@ import {
 const features = [
   {
     icon: Palette,
-    title: "Brand Identity",
-    description: "AI-generated brand names, logos, color palettes, and complete brand guidelines."
+    title: "3000+ AI Features",
+    description: "Comprehensive AI-powered tools for every aspect of your startup journey."
   },
   {
     icon: Globe,
-    title: "Landing Page",
-    description: "Mobile-optimized landing page with hero, features, pricing, and conversion-focused copy."
+    title: "Real-Time Collaboration",
+    description: "Advanced team collaboration with live editing, video calls, and project management."
   },
   {
     icon: Presentation,
-    title: "Pitch Deck",
-    description: "Professional 5-slide investor deck covering problem, solution, market, and strategy."
+    title: "Enterprise Analytics",
+    description: "Advanced business intelligence with real-time dashboards and predictive insights."
   },
   {
     icon: Scale,
-    title: "Legal Kit",
-    description: "Terms of service, privacy policy, incorporation guide, and founder agreements."
+    title: "Security & Compliance",
+    description: "Enterprise-grade security with SOC2, GDPR, and industry-specific compliance."
   },
   {
     icon: Share2,
-    title: "Social Strategy",
-    description: "Social media handles, content calendar, and viral marketing campaigns."
+    title: "Automation Engine",
+    description: "Intelligent workflow automation across all business processes and integrations."
   },
   {
     icon: Code,
-    title: "MVP Roadmap",
-    description: "Detailed feature list, development timeline, and technical specifications."
+    title: "Development Suite",
+    description: "Full-stack development tools with AI code generation and deployment automation."
   },
   {
     icon: FileText,
-    title: "Business Plan",
-    description: "Market analysis, competitive research, and go-to-market strategy."
+    title: "Business Intelligence",
+    description: "Advanced market analysis, competitive intelligence, and strategic planning tools."
   },
   {
     icon: DollarSign,
-    title: "Monetization",
-    description: "Revenue models, pricing strategies, and financial projections."
+    title: "Revenue Optimization",
+    description: "AI-powered revenue modeling, pricing optimization, and financial forecasting."
   }
 ];
 
@@ -59,11 +59,11 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Everything You Need to Launch
+            The Ultimate Startup Ecosystem
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Get a complete startup package instantly. No more spending weeks on research, 
-            design, and planning. Focus on building and growing your business.
+            3000+ features across every business function. From AI-powered ideation to 
+            enterprise-scale operations. The only platform you'll ever need.
           </p>
         </div>
         

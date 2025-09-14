@@ -32,6 +32,10 @@ import AutomationWorkflows from "./pages/AutomationWorkflows";
 import CustomerFeedback from "./pages/CustomerFeedback";
 import APIMarketplace from "./pages/APIMarketplace";
 import CommunityHub from "./pages/CommunityHub";
+import UltimateDashboard from "./pages/UltimateDashboard";
+import AIFeatureEngine from "./pages/AIFeatureEngine";
+import RealTimeCollaboration from "./pages/RealTimeCollaboration";
+import EnterpriseFeatures from "./pages/EnterpriseFeatures";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Pricing from "./pages/Pricing";
@@ -82,6 +86,10 @@ const App = () => (
                 <Route path="/feedback" element={<CustomerFeedback />} />
                 <Route path="/marketplace" element={<APIMarketplace />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/ultimate" element={<UltimateDashboard />} />
+                <Route path="/ai-engine" element={<AIFeatureEngine />} />
+                <Route path="/collaboration" element={<RealTimeCollaboration />} />
+                <Route path="/enterprise" element={<EnterpriseFeatures />} />
                 <Route path="/ideas" element={<IdeaGenerator />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />

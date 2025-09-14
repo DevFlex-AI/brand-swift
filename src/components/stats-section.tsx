@@ -1,18 +1,18 @@
 const stats = [
   {
-    number: "10,000+",
-    label: "Startups Generated"
+    number: "3,000+",
+    label: "Platform Features"
   },
   {
-    number: "60 sec",
-    label: "Average Generation Time"
+    number: "100K+",
+    label: "Active Users"
   },
   {
-    number: "$2M+",
-    label: "Total Funding Raised"
+    number: "$500M+",
+    label: "Funding Facilitated"
   },
   {
-    number: "95%",
+    number: "99.9%",
     label: "User Satisfaction"
   }
 ];
