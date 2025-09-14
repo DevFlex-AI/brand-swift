@@ -5,11 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { 
-  Users, MessageSquare, Video, Phone, Screen, Edit3, Eye, Share2,
-  Clock, Calendar, Bell, Settings, Plus, Search, Filter, Download,
-  Upload, Folder, File, Image, Code, Database, Globe, Zap
-} from "lucide-react";
+import { Users, MessageSquare, Video, Phone, ScreenShare as Screen, Edit3, Eye, Share2, Clock, Calendar, Bell, Settings, Plus, Search, Filter, Download, Upload, Folder, File, Image, Code, Database, Globe, Zap } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { supabase } from "@/integrations/supabase/client";
 
