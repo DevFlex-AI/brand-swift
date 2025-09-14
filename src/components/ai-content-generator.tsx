@@ -6,11 +6,14 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Sparkles, Copy, Download, RefreshCw, FileText, Mail, MessageSquare } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import { useAuth } from "@/contexts/AuthContext";
 
 export default function AIContentGenerator() {
   const [contentType, setContentType] = useState("");
   const [tone, setTone] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
+  const { user } = useAuth();
 
   const contentTypes = [
     { value: "blog", label: "Blog Post", icon: FileText },
@@ -39,9 +42,32 @@ export default function AIContentGenerator() {
   };
 
   const handleGenerate = async () => {
+    if (!user) {
+      alert("Please sign in to use this feature");
+      return;
+    }
+
     setIsGenerating(true);
-    await new Promise(resolve => setTimeout(resolve, 3000));
-    setIsGenerating(false);
+    try {
+      const { data, error } = await supabase.functions.invoke('generate-content', {
+        body: {
+          contentType,
+          tone,
+          topic: document.querySelector('textarea')?.value || '',
+          targetAudience: 'General',
+          keywords: ''
+        },
+        headers: { 'user-id': user.id }
+      });
+
+      if (error) throw error;
+      // Update UI with generated content
+      console.log('Generated content:', data);
+    } catch (error) {
+      console.error('Error generating content:', error);
+    } finally {
+      setIsGenerating(false);
+    }
   };
 
   return (
