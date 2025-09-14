@@ -6,19 +6,7 @@ import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { 
-  Rocket, Users, DollarSign, TrendingUp, Calendar, Target, Award, Zap, 
-  Brain, Code, Globe, Shield, MessageSquare, BarChart3, Lightbulb, 
-  Settings, Bell, Search, Filter, Download, Share2, Eye, Edit3,
-  Palette, FileText, Image, Video, Music, Camera, Mic, Phone,
-  Mail, Smartphone, Tablet, Monitor, Printer, Wifi, Bluetooth,
-  Cloud, Database, Server, Lock, Key, Fingerprint, CreditCard,
-  ShoppingCart, Package, Truck, MapPin, Compass, Navigation,
-  Clock, Timer, Stopwatch, Alarm, Calendar as CalendarIcon,
-  Sun, Moon, Star, Heart, ThumbsUp, ThumbsDown, Flag, Bookmark,
-  Tag, Hash, AtSign, Percent, Plus, Minus, X, Check, AlertTriangle,
-  Info, HelpCircle, QuestionMark, ExclamationMark, Slash, Backslash
-} from "lucide-react";
+import { Rocket, Users, DollarSign, TrendingUp, Calendar, Target, Award, Zap, Brain, Code, Globe, Shield, MessageSquare, BarChart3, Lightbulb, Settings, Bell, Search, Filter, Download, Share2, Eye, Edit3, Palette, FileText, Image, Video, Music, Camera, Mic, Phone, Mail, Smartphone, Tablet, Monitor, Printer, Wifi, Bluetooth, Cloud, Database, Server, Lock, Key, Fingerprint, CreditCard, ShoppingCart, Package, Truck, MapPin, Compass, Navigation, Clock, Timer, Watch as Stopwatch, AlarmPlus as Alarm, Calendar as CalendarIcon, Sun, Moon, Star, Heart, ThumbsUp, ThumbsDown, Flag, Bookmark, Tag, Hash, AtSign, Percent, Plus, Minus, X, Check, AlertTriangle, Info, HelpCircle, MailQuestion as QuestionMark, Radiation as ExclamationMark, Slash, Slack as Backslash } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { supabase } from "@/integrations/supabase/client";
 
