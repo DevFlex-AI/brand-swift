@@ -4,14 +4,16 @@ import { Check, Zap, Crown, Rocket } from "lucide-react";
 
 const pricingPlans = [
   {
-    name: "Starter Kit",
+    name: "First Blink",
     price: "$1",
     period: "one-time",
-    description: "Perfect for validating your idea",
+    description: "Perfect for creating your first instant business",
     icon: Zap,
     features: [
-      "AI-generated brand identity",
-      "Complete landing page",
+      "Instant AI business creation",
+      "Complete brand identity",
+      "Professional landing page",
+      "Ad generator with screenshots",
       "5-slide pitch deck",
       "Legal document templates",
       "Social media strategy",
@@ -22,38 +24,48 @@ const pricingPlans = [
     popular: false
   },
   {
-    name: "Growth",
+    name: "Power Blink",
     price: "$99",
     period: "/month",
-    description: "For serious entrepreneurs",
+    description: "For entrepreneurs building multiple businesses",
     icon: Crown,
     features: [
-      "Everything in Starter",
+      "Everything in First Blink",
+      "Unlimited business generation",
+      "Advanced ad creation with AI",
+      "Screenshot-to-ad conversion",
       "Custom domain deployment",
       "Advanced pitch deck",
       "Legal consultation call",
       "Weekly coaching sessions",
       "Priority AI generation",
-      "Unlimited regenerations"
+      "Unlimited regenerations",
+      "Team collaboration tools"
     ],
     buttonText: "Upgrade Now",
     buttonVariant: "default" as const,
     popular: true
   },
   {
-    name: "Scale",
+    name: "Empire Blink",
     price: "$999",
     period: "/month",
-    description: "Full startup acceleration",
+    description: "Build business empires at scale",
     icon: Rocket,
     features: [
-      "Everything in Growth",
+      "Everything in Power Blink",
+      "White-label platform access",
+      "Custom AI model training",
+      "Enterprise ad generation",
+      "Bulk screenshot processing",
       "AI MVP code generation",
       "Investor introductions",
       "PR and media outreach",
       "Team hiring assistance",
       "Fundraising support",
-      "White-label platform"
+      "Dedicated success manager",
+      "Custom integrations",
+      "Priority support"
     ],
     buttonText: "Contact Sales",
     buttonVariant: "outline" as const,
