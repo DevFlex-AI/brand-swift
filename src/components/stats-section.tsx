@@ -1,19 +1,19 @@
 const stats = [
   {
-    number: "3,000+",
+    number: "3,300+",
     label: "Platform Features"
   },
   {
-    number: "100K+",
-    label: "Active Users"
+    number: "500K+",
+    label: "Businesses Created"
   },
   {
-    number: "$500M+",
-    label: "Funding Facilitated"
+    number: "$2B+",
+    label: "Revenue Generated"
   },
   {
     number: "99.9%",
-    label: "User Satisfaction"
+    label: "Success Rate"
   }
 ];
 

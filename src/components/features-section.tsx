@@ -13,13 +13,13 @@ import {
 const features = [
   {
     icon: Palette,
-    title: "3000+ AI Features",
-    description: "Comprehensive AI-powered tools for every aspect of your startup journey."
+    title: "3300+ AI Features",
+    description: "Revolutionary AI-powered tools that create complete businesses instantly."
   },
   {
     icon: Globe,
-    title: "Real-Time Collaboration",
-    description: "Advanced team collaboration with live editing, video calls, and project management."
+    title: "Instant Business Creation",
+    description: "Generate complete startups with screenshots, ads, and full business packages."
   },
   {
     icon: Presentation,
@@ -59,11 +59,11 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            The Ultimate Business Creation Ecosystem
+            The Ultimate Startup Ecosystem
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            3300+ features across every business function. From AI-powered ideation to 
-            enterprise-scale operations. Blink and your business exists.
+            3000+ features across every business function. From AI-powered ideation to 
+            enterprise-scale operations. The only platform you'll ever need.
           </p>
         </div>
         
