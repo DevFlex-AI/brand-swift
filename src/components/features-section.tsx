@@ -59,11 +59,11 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            The Ultimate Startup Ecosystem
+            The Ultimate Business Creation Ecosystem
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            3000+ features across every business function. From AI-powered ideation to 
-            enterprise-scale operations. The only platform you'll ever need.
+            3300+ features across every business function. From AI-powered ideation to 
+            enterprise-scale operations. Blink and your business exists.
           </p>
         </div>
         
