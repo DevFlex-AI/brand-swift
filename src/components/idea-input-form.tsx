@@ -25,14 +25,18 @@ export default function IdeaInputForm() {
   };
 
   const features = [
-    "AI-generated brand name & logo",
+    "Instant AI business creation",
+    "Complete brand identity & logo",
     "Professional landing page",
-    "5-slide pitch deck",
+    "Ad generator with screenshots",
+    "5-slide investor pitch deck",
     "Legal document templates",
     "Social media strategy",
     "MVP roadmap & features",
     "Monetization plan",
-    "Domain suggestions"
+    "Domain suggestions",
+    "Marketing campaigns",
+    "Business plan document"
   ];
 
   return (
