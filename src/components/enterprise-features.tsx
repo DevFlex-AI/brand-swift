@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Progress } from "@/components/ui/progress";
-import { Building, Shield, Users, Globe, Database, Server, Cloud, Lock, Key, Fingerprint, Eye, Settings, Bell, Mail, Phone, Calendar, BarChart3, TrendingUp, DollarSign, Target, Zap, Code, Cog, Network, Layers, Box, Package, Truck, Factory, Wrench, PenTool as Tool } from "lucide-react";
+import { Building, Shield, Users, Globe, Database, Server, Cloud, Lock, Key, Fingerprint, Eye, Settings, Bell, Mail, Phone, Calendar, BarChart3, TrendingUp, DollarSign, Target, Zap, Code, Cog, Network, Layers, Box, Package, Truck, Factory, Wrench, PenTool as Tool, Filter, Download } from "lucide-react";
 
 interface EnterpriseFeature {
   id: string;

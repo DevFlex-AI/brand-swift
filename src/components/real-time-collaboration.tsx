@@ -3,9 +3,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
+import { Progress } from "@/components/ui/progress";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Users, MessageSquare, Video, Phone, ScreenShare as Screen, Edit3, Eye, Share2, Clock, Calendar, Bell, Settings, Plus, Search, Filter, Download, Upload, Folder, File, Image, Code, Database, Globe, Zap } from "lucide-react";
+import { Users, MessageSquare, Video, Phone, ScreenShare as Screen, Edit3, Eye, Share2, Clock, Calendar, Bell, Settings, Plus, Search, Filter, Download, Upload, Folder, File, Image, Code, Database, Globe, Zap, X } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { supabase } from "@/integrations/supabase/client";
 

@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from '@/contexts/AuthContext';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
+import FloatingActionMenu from '@/components/floating-action-menu';
 
 // Pages
 import Index from "./pages/Index";
@@ -94,6 +95,7 @@ const App = () => (
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
               </Routes>
+              <FloatingActionMenu />
             </main>
             <Footer />
           </div>
