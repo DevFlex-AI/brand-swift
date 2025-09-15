@@ -383,7 +383,7 @@ export default function UltimateDashboard() {
                 Feature Discovery Engine
               </CardTitle>
               <CardDescription>
-                Search and filter through 3000+ features to find exactly what you need
+                Search and filter through 3300+ features to find exactly what you need
               </CardDescription>
             </CardHeader>
             <CardContent>
