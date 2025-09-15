@@ -25,16 +25,16 @@ const HeroSection = () => {
               
               <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-float-3d">
                 <span className="bg-gradient-primary bg-clip-text text-transparent">
-                  Build Startups
+                  Do a Blink
                 </span>
                 <br />
                 <span className="text-foreground">
-                  with AI Power
+                  Business is Here
                 </span>
               </h1>
               
               <p className="text-xl text-muted-foreground mb-8 max-w-2xl animate-fade-in">
-                Professional AI tools for modern entrepreneurs. From idea validation to market launch - everything you need in one sophisticated platform.
+                Revolutionary AI platform that creates complete startups instantly. From idea to launch - just blink and your business exists.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mb-8">

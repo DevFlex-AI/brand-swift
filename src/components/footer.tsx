@@ -12,10 +12,10 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
                 <Zap className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">FlashBrand</span>
+              <span className="text-xl font-bold">Blinked</span>
             </div>
             <p className="text-white/60 text-sm">
-              Turn any idea into a complete startup in minutes. The fastest way to validate and launch your business.
+              Do a blink and your business is here. The fastest way to create and launch your startup.
             </p>
             <div className="flex items-center gap-4">
               <Twitter className="w-5 h-5 text-white/60 hover:text-white cursor-pointer transition-colors" />
@@ -61,7 +61,7 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/60 text-sm">
-              © 2024 FlashBrand. All rights reserved.
+              © 2024 Blinked. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               <Button variant="outline" size="sm" className="border-white/20 text-white hover:bg-white hover:text-foreground">
