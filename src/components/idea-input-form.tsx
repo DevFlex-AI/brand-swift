@@ -25,18 +25,14 @@ export default function IdeaInputForm() {
   };
 
   const features = [
-    "Instant AI business creation",
-    "Complete brand identity & logo",
+    "AI-generated brand name & logo",
     "Professional landing page",
-    "Ad generator with screenshots",
-    "5-slide investor pitch deck",
+    "5-slide pitch deck",
     "Legal document templates",
     "Social media strategy",
     "MVP roadmap & features",
     "Monetization plan",
-    "Domain suggestions",
-    "Marketing campaigns",
-    "Business plan document"
+    "Domain suggestions"
   ];
 
   return (
@@ -165,10 +161,10 @@ export default function IdeaInputForm() {
 
                 <div className="mt-8 p-4 bg-gradient-primary/10 rounded-lg border border-primary/20">
                   <h4 className="font-semibold text-primary mb-2">
-                    🚀 Ready to Launch Package
+                    ⚡ Instant Business Package
                   </h4>
                   <p className="text-sm text-muted-foreground">
-                    Everything professionally designed and ready to use. No design skills required.
+                    Complete business created instantly. Just blink and everything is ready to launch.
                   </p>
                 </div>
               </CardContent>
