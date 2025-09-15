@@ -91,6 +91,7 @@ const App = () => (
                 <Route path="/ai-engine" element={<AIFeatureEngine />} />
                 <Route path="/collaboration" element={<RealTimeCollaboration />} />
                 <Route path="/enterprise" element={<EnterpriseFeatures />} />
+                <Route path="/ads" element={<AdGeneratorPage />} />
                 <Route path="/ideas" element={<IdeaGenerator />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
