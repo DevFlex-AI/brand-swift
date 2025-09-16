@@ -15,7 +15,7 @@ export default function CustomerFeedbackHub() {
       user: "Alex Johnson",
       rating: 5,
       title: "Game-changing platform!",
-      content: "FlashBrand helped me launch my startup in record time. The AI-generated brand kit was spot on.",
+      content: "blinked helped me launch my startup in record time. The AI-generated brand kit was spot on.",
       date: "2 days ago",
       verified: true,
       helpful: 12

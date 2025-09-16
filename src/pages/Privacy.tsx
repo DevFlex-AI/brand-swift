@@ -178,8 +178,8 @@ export default function Privacy() {
                   please contact us:
                 </p>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>Email: privacy@flashbrand.com</p>
-                  <p>Address: 123 Innovation Street, Tech City, TC 12345</p>
+                  <p>Email: privacy@blinked.com</p>
+                  <p>Address: 123 Vision Street, Startup City, SC 12345</p>
                 </div>
                 
                 <div className="mt-6 p-4 bg-muted/50 rounded-lg">

@@ -42,13 +42,13 @@ export default function Terms() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground">
-                  By accessing and using FlashBrand ("the Service"), you agree to be bound by these 
+                  By accessing and using blinked ("the Service"), you agree to be bound by these 
                   Terms of Service ("Terms"). If you disagree with any part of these terms, you may 
                   not access the Service.
                 </p>
                 
                 <p className="text-muted-foreground">
-                  FlashBrand is a startup building platform that provides tools, resources, and AI-powered 
+                  blinked is a startup building platform that provides tools, resources, and AI-powered 
                   assistance to help entrepreneurs build and launch their businesses. These Terms apply to 
                   all users of the Service, including free and paid subscribers.
                 </p>
@@ -101,7 +101,7 @@ export default function Terms() {
 
                 <h4 className="font-semibold mt-6">Our Intellectual Property</h4>
                 <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-                  <li>FlashBrand platform, features, and technology are our proprietary property</li>
+                  <li>blinked platform, features, and technology are our proprietary property</li>
                   <li>Our trademarks, logos, and brand elements may not be used without permission</li>
                   <li>AI-generated content is provided as-is for your business use</li>
                   <li>You may not redistribute or resell our proprietary tools and features</li>
@@ -186,7 +186,7 @@ export default function Terms() {
 
                 <h4 className="font-semibold mt-6">Business Advice Disclaimer</h4>
                 <p className="text-muted-foreground">
-                  FlashBrand provides tools and AI-powered suggestions to assist with business 
+                  blinked provides tools and AI-powered suggestions to assist with business 
                   development. This should not be considered professional business, legal, or 
                   financial advice. Always consult with qualified professionals for important 
                   business decisions.
@@ -194,7 +194,7 @@ export default function Terms() {
 
                 <h4 className="font-semibold mt-6">Limitation of Liability</h4>
                 <p className="text-muted-foreground">
-                  In no event shall FlashBrand be liable for any indirect, incidental, special, 
+                  In no event shall blinked be liable for any indirect, incidental, special, 
                   consequential, or punitive damages arising from your use of the Service.
                 </p>
               </CardContent>
@@ -222,8 +222,8 @@ export default function Terms() {
                 <h4 className="font-semibold mt-6">Contact Information</h4>
                 <div className="space-y-2 text-muted-foreground">
                   <p>For questions about these Terms:</p>
-                  <p>Email: legal@flashbrand.com</p>
-                  <p>Address: 123 Innovation Street, Tech City, TC 12345</p>
+                  <p>Email: legal@blinked.com</p>
+                  <p>Address: 123 Vision Street, Startup City, SC 12345</p>
                 </div>
               </CardContent>
             </Card>

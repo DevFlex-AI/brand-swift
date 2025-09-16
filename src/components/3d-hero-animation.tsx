@@ -78,7 +78,7 @@ export default function HeroAnimation() {
           anchorY="middle"
           font="/fonts/Inter-Bold.woff"
         >
-          FlashBrand
+          blinked
         </Text>
         
         <OrbitControls 
