@@ -11,7 +11,8 @@ import {
   Image, Upload, Sparkles, Download, Share2, Eye, RefreshCw, 
   Camera, FileImage, Palette, Type, Layout, Target, BarChart3,
   Zap, Globe, MessageSquare, Mail, Phone, Video, Play, Pause,
-  Edit3, Copy, Trash2, Settings, Filter, Search, Grid, List
+  Edit3, Copy, Trash2, Settings, Filter, Search, Grid, List,
+  Smartphone
 } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { supabase } from "@/integrations/supabase/client";
@@ -194,7 +195,7 @@ export default function AdGeneratorWithScreenshots() {
         
         // Add screenshot if available
         if (ad.screenshot) {
-          const img = new Image();
+          const img = document.createElement('img');
           img.onload = () => {
             ctx.drawImage(img, 0, 0, width, height * 0.6);
             

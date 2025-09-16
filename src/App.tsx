@@ -42,6 +42,7 @@ import Terms from "./pages/Terms";
 import Pricing from "./pages/Pricing";
 import Profile from "./pages/Profile";
 import IdeaGenerator from "./pages/IdeaGenerator";
+import AdGeneratorPage from "./pages/AdGenerator";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
