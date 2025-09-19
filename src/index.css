@@ -1,116 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smack Builder - Autonomous AI App Builder</title>
+    <meta name="description" content="Revolutionary AI platform that autonomously builds complete applications. From concept to deployment - just describe your idea and watch it come to life." />
+    <meta name="author" content="Smack Builder" />
 
-/* blinked Design System - Modern startup aesthetics */
+    <meta property="og:title" content="Smack Builder - Autonomous AI App Builder" />
+    <meta property="og:description" content="Revolutionary AI that builds complete applications autonomously. Just describe your idea and watch it come to life." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/smack-builder-og.png" />
 
-@layer base {
-  :root {
-    /* Bold red and black theme for Blinked */
-    --background: 0 0% 2%;
-    --foreground: 0 0% 98%;
-    
-    /* Vibrant red primary */
-    --primary: 0 84% 60%;
-    --primary-foreground: 0 0% 9%;
-    --primary-glow: 0 84% 70%;
-    
-    /* Deep red secondary */
-    --secondary: 0 72% 51%;
-    --secondary-foreground: 0 0% 9%;
-    
-    /* Bright red accent */
-    --accent: 0 100% 50%;
-    --accent-foreground: 0 0% 98%;
-    
-    /* Refined neutral system */
-    --muted: 0 0% 8%;
-    --muted-foreground: 0 0% 65%;
-    
-    --card: 0 0% 4%;
-    --card-foreground: 0 0% 98%;
-    
-    --popover: 0 0% 4%;
-    --popover-foreground: 0 0% 98%;
-    
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
-    
-    --border: 0 0% 12%;
-    --input: 0 0% 12%;
-    --ring: 0 84% 60%;
-    
-    /* Bold red gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 72% 51%));
-    --gradient-hero: linear-gradient(135deg, hsl(0 0% 2%) 0%, hsl(0 84% 20%) 50%, hsl(0 72% 25%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 2%), hsl(0 0% 4%));
-    
-    /* Red electric shadows */
-    --shadow-electric: 0 25px 50px -12px hsl(0 84% 60% / 0.25);
-    --shadow-glow: 0 0 80px hsl(0 84% 70% / 0.3);
-    --shadow-card: 0 8px 32px hsl(0 0% 0% / 0.12);
-    
-    /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@smack_builder" />
+    <meta name="twitter:image" content="/smack-builder-og.png" />
+  </head>
 
-    --radius: 0.5rem;
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 0 84% 60%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 0 84% 60%;
-  }
-
-  .dark {
-    /* Dark theme with red accents */
-    --background: 0 0% 2%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 4%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 4%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 84% 60%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 0 72% 51%;
-    --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 8%;
-    --muted-foreground: 0 0% 65%;
-    --accent: 0 100% 50%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 12%;
-    --input: 0 0% 12%;
-    --ring: 0 84% 60%;
-    --sidebar-background: 0 0% 2%;
-    --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 0 84% 60%;
-    --sidebar-primary-foreground: 0 0% 9%;
-    --sidebar-accent: 0 0% 8%;
-    --sidebar-accent-foreground: 0 0% 98%;
-    --sidebar-border: 0 0% 12%;
-    --sidebar-ring: 0 84% 60%;
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground;
-  }
-}
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
