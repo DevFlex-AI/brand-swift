@@ -1,166 +1,24 @@
-import type { Config } from "tailwindcss";
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smack Builder - Autonomous AI App Builder</title>
+    <meta name="description" content="Revolutionary AI platform that autonomously builds complete applications. From concept to deployment - just describe your idea and watch it come to life." />
+    <meta name="author" content="Smack Builder" />
 
-export default {
-	darkMode: ["class"],
-	content: [
-		"./pages/**/*.{ts,tsx}",
-		"./components/**/*.{ts,tsx}",
-		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
-	],
-	prefix: "",
-	theme: {
-		container: {
-			center: true,
-			padding: '2rem',
-			screens: {
-				'2xl': '1400px'
-			}
-		},
-		extend: {
-			colors: {
-				border: 'hsl(var(--border))',
-				input: 'hsl(var(--input))',
-				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
-				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))',
-					glow: 'hsl(var(--primary-glow))'
-				},
-				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
-				},
-				destructive: {
-					DEFAULT: 'hsl(var(--destructive))',
-					foreground: 'hsl(var(--destructive-foreground))'
-				},
-				muted: {
-					DEFAULT: 'hsl(var(--muted))',
-					foreground: 'hsl(var(--muted-foreground))'
-				},
-				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
-				},
-				popover: {
-					DEFAULT: 'hsl(var(--popover))',
-					foreground: 'hsl(var(--popover-foreground))'
-				},
-				card: {
-					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))'
-				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
-			},
-			backgroundImage: {
-				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-subtle': 'var(--gradient-subtle)'
-			},
-			boxShadow: {
-				'electric': 'var(--shadow-electric)',
-				'glow': 'var(--shadow-glow)',
-				'card': 'var(--shadow-card)'
-			},
-			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
-			},
-			keyframes: {
-				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
-				},
-				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
-				},
-				'pulse-glow': {
-					'0%, 100%': {
-						boxShadow: '0 0 20px hsl(217 91% 70% / 0.4)'
-					},
-					'50%': {
-						boxShadow: '0 0 40px hsl(217 91% 70% / 0.8)'
-					}
-				},
-				'float': {
-					'0%, 100%': {
-						transform: 'translateY(0px)'
-					},
-					'50%': {
-						transform: 'translateY(-10px)'
-					}
-				},
-				'float-3d': {
-					'0%, 100%': {
-						transform: 'translateY(0px) rotateX(0deg) rotateY(0deg)'
-					},
-					'33%': {
-						transform: 'translateY(-15px) rotateX(10deg) rotateY(120deg)'
-					},
-					'66%': {
-						transform: 'translateY(-8px) rotateX(-5deg) rotateY(240deg)'
-					}
-				},
-				'rotate-3d': {
-					'0%': {
-						transform: 'rotateX(0deg) rotateY(0deg) rotateZ(0deg)'
-					},
-					'25%': {
-						transform: 'rotateX(90deg) rotateY(90deg) rotateZ(0deg)'
-					},
-					'50%': {
-						transform: 'rotateX(180deg) rotateY(180deg) rotateZ(90deg)'
-					},
-					'75%': {
-						transform: 'rotateX(270deg) rotateY(270deg) rotateZ(180deg)'
-					},
-					'100%': {
-						transform: 'rotateX(360deg) rotateY(360deg) rotateZ(360deg)'
-					}
-				},
-				'pulse-3d': {
-					'0%, 100%': {
-						transform: 'scale(1) rotateY(0deg)',
-						boxShadow: '0 0 20px hsl(260 100% 80% / 0.3)'
-					},
-					'50%': {
-						transform: 'scale(1.05) rotateY(180deg)',
-						boxShadow: '0 0 40px hsl(260 100% 80% / 0.6)'
-					}
-				}
-			},
-			animation: {
-				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out',
-				'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
-				'float': 'float 3s ease-in-out infinite',
-				'float-3d': 'float-3d 6s ease-in-out infinite',
-				'rotate-3d': 'rotate-3d 20s linear infinite',
-				'pulse-3d': 'pulse-3d 3s ease-in-out infinite'
-			}
-		}
-	},
-	plugins: [require("tailwindcss-animate")],
-} satisfies Config;
+    <meta property="og:title" content="Smack Builder - Autonomous AI App Builder" />
+    <meta property="og:description" content="Revolutionary AI that builds complete applications autonomously. Just describe your idea and watch it come to life." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/smack-builder-og.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@smack_builder" />
+    <meta name="twitter:image" content="/smack-builder-og.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
